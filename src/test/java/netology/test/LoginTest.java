@@ -1,15 +1,15 @@
 package netology.test;
 
+import netology.data.DataBase;
+import netology.data.DataHelper;
+import netology.data.UserData;
+import netology.data.netology.page.DashboardPage;
+import netology.data.netology.page.LoginPage;
+import netology.data.netology.page.VerificationPage;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import ru.netology.data.DataBase;
-import ru.netology.data.DataHelper;
-import ru.netology.data.UserData;
-import ru.netology.page.DashboardPage;
-import ru.netology.page.LoginPage;
-import ru.netology.page.VerificationPage;
 
 import static com.codeborne.selenide.Selenide.open;
 
