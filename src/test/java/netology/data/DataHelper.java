@@ -21,10 +21,4 @@ public class DataHelper {
         String randomPass = faker.internet().password();
         return randomPass;
     }
-
-    public static void assertStatus(String login) {
-        String expected = "blocked";
-        String actual = DataBase.userStatus(login);
-        assertEquals(expected, actual);
-    }
 }
